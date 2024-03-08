@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "EasyMatch",
+    "slug": "easymatch",
+    "version": "1.0.0",
+    "privacy": "hidden",
+    "owner": "eduardobalzan",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./src/assets/adaptive-icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "cover"
+    },
+    "sdkVersion": "48.0.0",
+    "updates": {
+      "enabled": true,
+      "url": "https://u.expo.dev/3d360428-8da5-420a-bc24-b32b45134416"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3d360428-8da5-420a-bc24-b32b45134416"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "android": {
+      "package": "com.eduardobalzan.easymatch"
+    },
+    "ios": {
+      "bundleIdentifier": "com.easymatch"
+    }
+  }
+}
